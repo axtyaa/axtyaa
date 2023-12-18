@@ -10,8 +10,8 @@
   <img src="https://github-readme-stats.vercel.app/api?username=axtyaa&show_icons=true&theme=radical" /> 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=axtyaa&theme=tokyonight&hide_border=true" />
 </div>
-```javascript
-    <script>
+<div>
+&lt;script&gt;
         function fetchHeartbeat() {
   const userId = '964828677311455262';
     fetch(`https://api.lanyard.rest/v1/users/${userId}`)
@@ -34,4 +34,5 @@
             document.getElementById('error').textContent = errorMessage;
 });
 }
-    </script>
+&lt;/script&gt;
+</div>
