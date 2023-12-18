@@ -8,5 +8,5 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=axtyaa&show_icons=true&theme=radical" /> 
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rubuscode&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=axtyaa&theme=tokyonight&hide_border=true" />
 </div>
