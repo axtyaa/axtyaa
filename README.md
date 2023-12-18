@@ -1,8 +1,8 @@
 # 💫 About Me:
-<body><br><h1 align="center">Hi 👋, I'm axtyaa</h1>
+Hi 👋, I'm axtyaa
 
 
-## 🌐 Socials:
+# 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/https://discord.com/api/v9/users/@me/relationships/1021736975692218430) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/ax.tyaa) [![TikTok](https://img.shields.io/badge/TikTok-%23000000.svg?logo=TikTok&logoColor=white)](https://tiktok.com/@kindredemu06149) 
 
 # 💻 Tech Stack:
@@ -19,3 +19,8 @@
 [![](https://visitcount.itsvg.in/api?id=axtyaa&icon=0&color=9)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+<style>
+  html{
+  align: center;
+  }
+</style>
