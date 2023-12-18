@@ -17,10 +17,3 @@ Hi 👋, I'm axtyaa
 
 ---
 [![](https://visitcount.itsvg.in/api?id=axtyaa&icon=0&color=9)](https://visitcount.itsvg.in)
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-<style>
-  html{
-  align: center;
-  }
-</style>
