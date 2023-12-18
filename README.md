@@ -47,15 +47,6 @@
                       <div class="headers-text-orders  headers-text-resize-container">
                         <!-- Header 1 -->
                         <div data-aos="fade-up">
-                          <div class="m-h-item header1 custom-font-settings weight700   header-modules-header-font" style="--header-font-size: 55;" data-old-bold="false">ABOUT</div>
-                        </div>
-                        <div class="line headers-text-separator">
-                        </div>
-                        <!-- Header 2 -->
-                        <div data-aos="fade-up">
-                          <div class="m-h-item header2 custom-font-settings   header-global-font" style="--header-font-size: 19;"><strong>I am 15yo boy from Poland who just started his adventure in Digital Art. I love playing video games and coding.</strong>
-                          </div>
-                        </div>
                       </div>
                       <div class="header-spacer" data-text-exist="true" data-action-exist="false">
                       </div>
