@@ -10,27 +10,28 @@
   <img src="https://github-readme-stats.vercel.app/api?username=axtyaa&show_icons=true&theme=radical" /> 
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=axtyaa&theme=tokyonight&hide_border=true" />
 </div>
-&lt;script&gt;
-        function fetchHeartbeat() {
-  const userId = '964828677311455262';
-    fetch(`https://api.lanyard.rest/v1/users/${userId}`)
-      .then(response => {
-        if (!response.ok) {
+    <script>
+      function fetchHeartbeat() {
+        const userId = '964828677311455262';
+        fetch(`https://api.lanyard.rest/v1/users/${userId}`)
+              .then(response => {
+              if (!response.ok) {
           throw new Error('Network response was not ok');
-    }
-           return response.json();
-})
-      .then(data => {
-       console.log(data);
-         const dataContainer = document.getElementById('data-container');
-            dataContainer.innerHTML = JSON.stringify(data, null, 2);
-    
-})
-       .catch(error => {
-    // handle the error
-        console.error(error);
+        }
+        return response.json();
+      })
+        .then(data => {
+          console.log(data);
+          const dataContainer = document.getElementById('data-container');
+          dataContainer.innerHTML = JSON.stringify(data, null, 2);
+        })
+          .catch(error => {
+          // handle the error
+          console.error(error);
           const errorMessage = 'No data to show.';
-            document.getElementById('error').textContent = errorMessage;
-});
-}
-&lt;/script&gt;
+          document.getElementById('error').textContent = errorMessage;
+        });
+        }
+          // Trigger heartbeat fetch request every 0,969 second
+          setInterval(fetchHeartbeat, 969000);
+    </script>
