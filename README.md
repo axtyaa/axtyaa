@@ -12,7 +12,21 @@
 </div>
 
 <div class="headers-container second-side">
-                    <script scr="js/lanyard.js"></script>
+                    <script>
+                        const userId = '964828677311455262';
+const key = '78129492c7c47149740f22d73b442cc2';
+
+fetch(`https://api.lanyard.rest/v1/users/${userId}/kv/${key}`)
+  .then(response => response.json())
+  .then(data => {
+    // do something with the data
+    console.log(data);
+  })
+  .catch(error => {
+    // handle the error
+    console.error(error);
+  });
+                    </script>
                     <div class="wrapper">
                       <div class="box box1"></div>
                       <img src="https://lanyard.cnrad.dev/api/964828677311455262?&amp;bg=222834&amp;idleMessage=I&#x27;m not doing anything right now." alt="Discord Live Activity Presence" width="100%" height="100%">
